@@ -1,0 +1,20 @@
+{
+  "name": "walmart-product-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "Test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbeesabathuni/Product-Search.git"
+  },
+  "author": "Sravya Beesabathuni",
+  "bugs": {
+    "url": "https://github.com/sbeesabathuni/Product-Search/issues"
+  },
+  "homepage": "https://github.com/sbeesabathuni/Product-Search#readme",
+  "dependencies": {
+    "hapi": "^17.5.0"
+  }
+}
