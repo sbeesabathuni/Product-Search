@@ -15,6 +15,10 @@
   },
   "homepage": "https://github.com/sbeesabathuni/Product-Search#readme",
   "dependencies": {
-    "hapi": "^17.5.0"
+    "csv": "^3.1.0",
+    "file-system": "^2.2.2",
+    "hapi": "^17.5.0",
+    "hashmap": "^2.3.0",
+    "request": "^2.87.0"
   }
 }
