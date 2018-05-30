@@ -72,7 +72,7 @@ describe('Testing Product API', function () {
     });
 
     //final product api with keyword backpack
-    it('check product api when values are cached in hashmap', function () {
+    it('product api test with keyword backpack', function () {
         setTimeout(function(){
            server.downloaded = true;
            server.map = hmap;
@@ -91,7 +91,7 @@ describe('Testing Product API', function () {
     });
 
     //final product api with keyword bag
-        it('check product api when values are cached in hashmap', function () {
+        it('product api test with keyword bag', function () {
             setTimeout(function(){
                server.downloaded = true;
                server.map = hmap;
@@ -101,7 +101,6 @@ describe('Testing Product API', function () {
                })
                .then(
                    function (response) {
-                       console.log(response.result);
                        assert.deepEqual(response.statusCode, 200);
                        assert.equal(response.result, 'No items matching the given keyword');
                    }

@@ -53,8 +53,7 @@ server.readFromCsv = function(filePath) {
                 done("csv is read!!");
             })
             .on("error", function (error) {
-                console.log(error);
-                reject();
+                reject(error);
             });
     });
 }
@@ -97,6 +96,9 @@ server.readCsvAndDownload = function(filePath, callback) {
                             callback();
                         }
                     }
+                })
+                .catch(err => {
+                    console.log(`Error occured ${err.message}`)
                 });
         }
     });
