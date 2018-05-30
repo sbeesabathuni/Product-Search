@@ -3,22 +3,25 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "test": "Test"
+    "test": "node ./node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sbeesabathuni/Product-Search.git"
   },
   "author": "Sravya Beesabathuni",
-  "bugs": {
-    "url": "https://github.com/sbeesabathuni/Product-Search/issues"
-  },
   "homepage": "https://github.com/sbeesabathuni/Product-Search#readme",
   "dependencies": {
-    "csv": "^3.1.0",
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "fast-csv": "^2.4.1",
     "file-system": "^2.2.2",
-    "hapi": "^17.5.0",
+    "hapi": "^16.4.3",
     "hashmap": "^2.3.0",
+    "inject-then": "^2.0.9",
     "request": "^2.87.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
   }
 }
