@@ -3,7 +3,7 @@
 2. This will download all the dependencies required for the application to work.
 
 # Product-Search
-1. Start the server using: node start
+1. Start the server using: "node start"
 2. Default url: http://localhost:3000/ should display the following message : "Walmart Test!! Go to /items/{your keyword} to get the product ids".
 3. Keyword search: http://localhost:3000/items/{keyword}
 4. The items.csv will be read in batches of 20 and an api call will be made to the product-api provided which will return product information. A hashmap would be populated with productId as key and description as value.
